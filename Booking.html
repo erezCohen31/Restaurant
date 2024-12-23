@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
+    <link rel="stylesheet" href="booking.css">
 </head>
+
 <body>
-    
+    <div class="header">
+        <h1 >reserve a table</h1>
+        <h2>the Bavette</h2>
+        <p>ze'ev vilnai 4 , Jerusalem</p>
+    </div>
+    <div class="table">
+        <form action="submit.php" class="form">
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+            <label for="time">Time:</label>
+            <select name="time" id="time">
+                <option value="6">6:00pm</option>
+                <option value="6">6:30pm</option>
+                <option value="6">7:00pm</option>
+                <option value="6">7:30pm</option>
+                <option value="6">8:00pm</option>
+                <option value="6">8:30pm</option>
+                <option value="6">9:00pm</option>
+                <option value="6">9:30pm</option>
+                <option value="6">10:00pm</option>
+            </select>
+            <label for="guests">Guests:</label>
+            <select id="guests">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11+">11+</option>
+            </select>
+            <button type="submit">reserve a table</button>
+        </form>
+    </div>
 </body>
 </html>

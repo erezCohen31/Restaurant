@@ -1,0 +1,80 @@
+:root{
+  --font-family: 'Courier New', Courier, monospace;
+  --text-color: white;
+  --primary-color: #715c5c;
+}
+body {
+font-family: var(--font-family);
+background-color: #5f5e5d;
+background-size: cover;
+color:var(--text-color);
+}
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+}
+h1{
+    margin: 4px;
+    color: #e1dddd;
+}
+h2{
+    margin: 4px;
+}
+p{
+    margin: 4px;
+}
+.table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: rgba(168, 154, 154, 0.7);
+  border-radius: 8px;
+}
+.label{
+  
+}
+input, select {
+  padding: 0.5rem;
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+  background-color: rgba(133, 85, 85, 0.3);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  cursor:pointer;
+}
+button {
+  margin-top: 15px;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 4px;
+  cursor:pointer;
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+button:hover{
+  background-color: rgb(3, 2, 3);
+  transition: 400ms;
+}
+option{
+  background-color: rgb(152, 168, 168);
+}
+@media screen and (max-width: 600px) {
+
+  .form {
+    padding: 1rem;
+  }
+}

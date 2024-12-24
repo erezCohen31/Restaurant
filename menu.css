@@ -16,25 +16,16 @@ header {
 }
 
 button {
-  background-color: #4CAF50; /* Couleur de fond (vert) */
-  color: white; /* Couleur du texte */
-  border: none; /* Pas de bordure */
-  padding: 12px 24px; /* Espacement interne */
-  font-size: 16px; /* Taille du texte */
-  border-radius: 8px; /* Coins arrondis */
-  cursor: pointer; /* Curseur en forme de main au survol */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
-  transition: background-color 0.3s ease; /* Animation fluide */}
-  /* Effet au survol */
-.mon-bouton:hover {
-  background-color: #45a049; /* Couleur légèrement plus foncée */
-}
+  background:none; 
+  border: none; 
+  padding: 12px 24px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+  color: var(--color-text);
+  font-family: var(--font-text) ;
+font-size: 24px;}
+ 
 
-/* Effet au clic */
-.mon-bouton:active {
-  background-color: #3e8e41;
-  transform: scale(0.98); /* Réduction légère */
-}
 
 main {
 

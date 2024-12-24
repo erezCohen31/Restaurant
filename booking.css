@@ -2,7 +2,29 @@
   --font-family: "Courier New", Courier, monospace;
   --text-color: white;
   --primary-color: #838387;
+  --color-text: white;
+
+  --font-text: 'Courier New', Courier, monospace;
 }
+header {
+  color: var(--color-text);
+  font-family: var(--font-text);
+}
+header>.button-main {
+  background:none; 
+  border: none; 
+  padding: 12px 24px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+  color: var(--color-text);
+  font-family: var(--font-text) ;
+font-size: 24px;}
+header > .button-main:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  background: none;
+}
+
 body {
   font-family: var(--font-family);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
@@ -55,7 +77,7 @@ select {
   font-family: var(--font-family);
   cursor: pointer;
 }
-button {
+button:not(.button-main) {
   margin-top: 15px;
   padding: 1rem;
   background-color: var(--primary-color);
@@ -67,7 +89,7 @@ button {
   text-transform: uppercase;
   font-weight: bold;
 }
-button:hover {
+button:not(.button-main):hover{
   background-color: rgb(3, 2, 3);
   transition: 400ms;
 }

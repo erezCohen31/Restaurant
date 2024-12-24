@@ -1,10 +1,10 @@
 :root{
     --color-text :white;    
-    ;
+    
     --font-text:  'Courier New', Courier, monospace;
 }
 .image-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/images/image.png) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/image.png) ;
     background-size: cover;
     background-position: center;
    }
@@ -20,7 +20,7 @@ flex-direction: column;
 }
 
 header {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url(/images/backgroud_header.avif) ;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url(./images/backgroud_header.jpeg) ;
     color: var(--color-text);
     font-family: var(--font-text);
     

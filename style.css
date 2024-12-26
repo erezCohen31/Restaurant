@@ -218,6 +218,9 @@ input[type=submit]:hover {
         grid-column: 1/2;
         grid-row: 1/2;
     }
+    #message{
+        position: static;
+    }
 
     form {
         display: flex;
